@@ -24,12 +24,18 @@
             height: 100%;
             z-index: -1;
         }
-       #contact.section {
-    padding-top: 5rem;
-    padding-bottom: 0; /* Remove extra space below footer */
-}
-
-
+        .section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 5rem 1.5rem; /* <-- reduce bottom padding */
+    z-index: 1;
+     /* padding-top: 5rem;
+    padding-bottom: 0; */
+    }
         .glass-card {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
@@ -270,7 +276,7 @@
       <p class="text-xl font-semibold mb-3">Direct Contact:</p>
       <p class="text-lg mb-2">
         <strong class="text-blue-600">Email:</strong> 
-        <a href="mailto:vwagh0481@gmail.com" class="text-blue-600 hover:underline">vwagh0481@gmail.com</a>
+        <a href="mailto:vwagh0481@gmail.com" class="text-blue-600 hover:underline">drishakagency@gmail.com</a>
       </p>
       <p class="text-lg mb-4">
         <strong class="text-blue-600">Phone:</strong> 
